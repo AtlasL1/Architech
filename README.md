@@ -15,9 +15,6 @@ To import it to your script, simply add the following code: <br>
 import architech
 ```
 
-### Usage
-Coming Soon™
-
 ### Links
 **Docs**: https://atlas.is-not-a.dev/architech <br>
 **GitHub Repo**: https://github.com/AtlasL1/Architech
