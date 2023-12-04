@@ -1,6 +1,8 @@
 # Architech
 **A Python package for natural language processing.**
 
+> This is a recent project. The info in the files may be inaccurate, and the package is yet to be released in PyPI.org. It is currently available only in TestPyPI.
+
 ### Functions
 - Train model
 - Unlimited tokens
