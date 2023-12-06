@@ -18,5 +18,5 @@ import architech
 ```
 
 ### Links
-**GitHub Repo**: https://github.com/AtlasL1/Architech
+**GitHub Repo**: https://github.com/AtlasL1/Architech <br>
 **Docs**: https://github.com/AtlasL1/Architech/wiki OR https://atlas.is-not-a.dev/architech <br>
