@@ -4,11 +4,11 @@
 import inspect
 from colorama import Fore, Style
 
-def name(user_name):
+def name(model_name):
     result = (
         f"{Fore.RED}Loading Environment...\n"
         f"{Fore.GREEN}Successfully loaded environment.\n"
-        f"{Style.RESET_ALL}The model's name has been set to \"{user_name}\"."
+        f"{Style.RESET_ALL}The model's name has been set to \"{model_name}\"."
     )
     return result
 
@@ -28,8 +28,7 @@ def hello(model_name, choice):
 
     if choice in types:
         return (
-            f"{name(user_name)}\n"
-            f"\n{user_name.capitalize()} says: {types[choice]}"
+            f"\n{model_name.capitalize()} says: {types[choice]}"
         )
     else:
         caller_frame = inspect.currentframe().f_back
@@ -38,3 +37,9 @@ def hello(model_name, choice):
             f"Please refer to the documentation for further support."
         )
         return error_message
+
+def hello_output(user_name, sentence):
+    return (
+        f"{user_name.capitalize()} says: {sentence}\n\n"
+        f"{Fore.BLUE}Process 'START' complete.\n"
+    )
