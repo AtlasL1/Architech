@@ -1,3 +1,6 @@
+# Architech
+# Start.py
+
 import inspect
 from colorama import Fore, Style
 
@@ -9,11 +12,18 @@ def name(user_name):
     )
     return result
 
-def hello(user_name, choice):
+def hello(model_name, choice):
     types = {
         "a1": "Hello! How may I help you?",
         "a2": "Hello. How may I assist you today?",
-        "a3": "yo. what's up."
+        "a3": "Yo. What's up.",
+        "a4": "Greetings! How can I be of service?",
+        "a5": "Hi! What brings you here?",
+        "a6": "Salutations! Ready for a chat?",
+        "a7": "Ahoy there! What brings you here?",
+        "a8": "Hello! Anything exciting happening?",
+        "a9": "Hey! What's the plan for today?",
+        "a10": "Yo! What's the latest news?",
     }
 
     if choice in types:
