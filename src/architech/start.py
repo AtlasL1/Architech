@@ -41,5 +41,5 @@ def hello(model_name, choice):
 def hello_output(user_name, sentence):
     return (
         f"{user_name.capitalize()} says: {sentence}\n\n"
-        f"{Fore.BLUE}Process 'START' complete.\n"
+        f"{Fore.BLUE}Process 'START' complete."
     )
