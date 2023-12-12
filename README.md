@@ -1,12 +1,12 @@
 # Architech
-**A Python package for natural language processing.**
+**A Python package for artificial intelligence.**
 
 > This is a recent project. The info in the files may be inaccurate, and the first version of the package, v0.1.1, is released on [PyPI.org](https://pypi.org/project/architech/). 
 
 ### Features
-- Train model
+- Train models
 - Unlimited tokens
-- Create large language model
+- Create large language models
 
 ### Installation
 To install Architech, please run the following command in your terminal: <br>
@@ -14,7 +14,7 @@ To install Architech, please run the following command in your terminal: <br>
 
 To import it to your script, simply add the following code: <br>
 ```python
-import architech
+from architech import start
 ```
 
 ### Links
