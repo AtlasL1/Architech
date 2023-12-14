@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='architech',
-    version='0.0.1',
+    version='0.1.1',
     author='Atlas',
     description='A Python package for AI',
     url='https://github.com/AtlasL1/Architech',
