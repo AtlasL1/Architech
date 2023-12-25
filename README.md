@@ -19,4 +19,5 @@ from architech import start
 
 ### Links
 **GitHub Repo**: https://github.com/AtlasL1/Architech <br>
+**GitHub Project**: https://github.com/users/AtlasL1/projects/5
 **Docs**: https://atlas.is-not-a.dev/architech/docs
