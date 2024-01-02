@@ -1,3 +1,4 @@
+> I'll manage the docs upon completion of the package!
 # Architech
 **A Python package for building your own AI model.**
 
