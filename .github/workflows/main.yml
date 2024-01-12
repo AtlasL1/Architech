@@ -1,16 +1,13 @@
-name: Deploy
-
 on:
-  push:
-    branches:
-      - main
+    push:
+        branches:
+            - main
 
 jobs:
-  contrib-readme-job:
-    runs-on: ubuntu-latest
-    name: README Contributors
-    steps:
-      - name: Contribute List
-        uses: AtlasL1/Architech@v1.0.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    contrib-readme-job:
+        runs-on: ubuntu-latest
+        name: A job to automate contrib in readme
+        steps:
+            - name: AtlasL1/Architech@v1.0.0
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
