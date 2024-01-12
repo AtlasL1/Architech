@@ -19,3 +19,7 @@ from architech import build
 ### Links
 **Docs**: https://architech.py-dev.io <br>
 **GitHub Repo**: https://github.com/AtlasL1/Architech
+
+### Contributors
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
