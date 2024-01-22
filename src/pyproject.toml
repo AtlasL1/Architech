@@ -4,7 +4,7 @@ version = "1.0.0"
 authors = [
   { name="Atlas", email="vtlvs.0@gmail.com" },
 ]
-description = "NLP Python Package"
+description = "AI Python Package"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
@@ -12,3 +12,9 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[project.urls]
+GitHub = "https://github.com/AtlasL1/Architech"
+Issues = "https://github.com/AtlasL1/Architech/issues"
+Docs = "https://architech.py-dev.io"
+Discord = "https://discord.gg/c8HZm3at2u"
